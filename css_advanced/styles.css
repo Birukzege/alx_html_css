@@ -1,6 +1,9 @@
 /* background image */
 .image {
     background-image: url(image/background\(1\).png);
+    background-size: cover;
+    width: 1440px;
+    height: 1100px;
   }
   
     /* navigation */
@@ -54,7 +57,7 @@
     font-size: 120px;
     color: white;
     text-align: center;
-    font-weight: bolder;
+    font-weight: lighter;
     margin-bottom: 0px;
     margin-top: 11%;
     }
