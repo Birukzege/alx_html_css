@@ -313,3 +313,62 @@ h3 {
 .file{
     padding-top: 5%;
 }
+
+/* 4th section */
+.cob{
+    background-color: rgb(2, 13, 36);
+    height: 250px;
+  }
+  
+  .ling{
+    color: white;
+    float: right;
+    padding-top: 6%;
+    padding-right: 16%;
+    font-size: 28px;
+    letter-spacing: 9px;
+   
+  
+  }
+  
+  #we{
+    padding-top: 6%;
+    padding-left: 11%;
+  }
+  
+  .pm{
+    color: rgb(75, 74, 77);
+    font-family: myfo;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media(max-width:480px){
+    .flix{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    #we{
+        padding-left: 28%;
+    }
+    .ling{
+        padding-left: 32%;
+        padding-right: 17%;
+        position: relative;
+    }
+    .pm{
+        padding-top: 7%;
+    }
+  }
+  @media(max-width:295px){
+    .ling{
+        font-size: 24px;
+        padding-left: 80px;
+    }
+    #we{
+        padding-left: 60px;
+    }
+  }
