@@ -272,3 +272,44 @@ h3 {
         margin-right: 7.5%;
     }
 }
+
+/* 4th section of the work */
+
+.mar{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.jont{color: black;}
+.wrapper{
+    padding-left: 35%;
+}
+.wrapper .input-data{
+    height: 40px;
+    width: 45%;
+    position: relative;
+    padding-top: 12%;
+}
+.wrapper .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid grey;
+}
+.input-data input:focus ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: rgb(67, 66, 66);
+}
+.wrapper .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: rgb(0, 0, 0);
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+.file{
+    padding-top: 5%;
+}
